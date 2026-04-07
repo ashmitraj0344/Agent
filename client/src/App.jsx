@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import "./App.css";
 
-const BACKEND_URL = "http://localhost:3000";
+const BACKEND_URL = "https://agent-one-gamma.vercel.app";
 const LOGO_URL = "/lpu-logo.png?v=1";
 const QUICK_PROMPTS = [
   "I want to visit the LPU campus",
