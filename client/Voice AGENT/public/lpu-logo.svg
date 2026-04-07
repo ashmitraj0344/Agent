@@ -1,0 +1,22 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="orange" x1="110" y1="80" x2="402" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF9A2E"/>
+      <stop offset="1" stop-color="#F28C00"/>
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="248" fill="#ffffff" stroke="#3B2C22" stroke-width="10"/>
+  <circle cx="256" cy="256" r="195" fill="#FF9A2E" stroke="#3B2C22" stroke-width="10"/>
+  <path d="M162 104L214 116L129 360L92 334L162 104Z" fill="#3B2C22"/>
+  <path d="M252 88L300 104L162 332L128 308L252 88Z" fill="#3B2C22"/>
+  <path d="M338 116L380 142L220 362L184 338L338 116Z" fill="#3B2C22"/>
+  <path d="M425 214L425 258L262 406L232 378L425 214Z" fill="#3B2C22"/>
+  <path d="M402 351L390 396L246 430L240 396L402 351Z" fill="#3B2C22"/>
+  <circle cx="256" cy="256" r="192" fill="url(#orange)" opacity="0.25"/>
+  <path d="M62 256H96" stroke="#3B2C22" stroke-width="20" stroke-linecap="round"/>
+  <path d="M416 256H450" stroke="#3B2C22" stroke-width="20" stroke-linecap="round"/>
+  <path d="M256 62V96" stroke="#3B2C22" stroke-width="20" stroke-linecap="round"/>
+  <path d="M256 416V450" stroke="#3B2C22" stroke-width="20" stroke-linecap="round"/>
+  <text x="256" y="58" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="500" fill="#3B2C22" letter-spacing="2">LOVELY PROFESSIONAL UNIVERSITY</text>
+  <text x="256" y="472" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="500" fill="#3B2C22" letter-spacing="1">PUNJAB (INDIA)</text>
+</svg>
