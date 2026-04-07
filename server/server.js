@@ -11,7 +11,7 @@ const API_KEY = process.env.RETELL_API_KEY;
 const PORT = process.env.PORT || 3000;
 const RETELL_API_BASE = "https://api.retellai.com";
 const allowedOrigins = [
-  "https://agent-one-gamma.vercel.app",
+  "https://lpu-voice-agent.vercel.app/",
   ...(process.env.FRONTEND_URL
     ? process.env.FRONTEND_URL.split(",").map((origin) => origin.trim()).filter(Boolean)
     : [])
