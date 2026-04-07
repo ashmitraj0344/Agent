@@ -3,7 +3,7 @@
 FROM node:lts
 
 # Create and change to the app directory.
-WORKDIR /app
+WORKDIR /server
 
 # Copy local code to the container image
 COPY . ./
