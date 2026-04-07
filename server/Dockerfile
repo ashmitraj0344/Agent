@@ -1,6 +1,6 @@
 # Use the Node official image
 # https://hub.docker.com/_/node
-FROM node:19.5.0-alpine
+FROM node:trixie-slim
 
 # Create and change to the app directory.
 WORKDIR /server
@@ -9,7 +9,7 @@ WORKDIR /server
 COPY . ./
 
 # Install packages
-RUN npm ci
+RUN npm install
 
 # Serve the app
 CMD ["npm", "run", "start"]
