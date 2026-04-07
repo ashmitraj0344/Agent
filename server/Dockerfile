@@ -1,6 +1,6 @@
 # Use the Node official image
 # https://hub.docker.com/_/node
-FROM node:lts
+FROM node:19.5.0-alpine
 
 # Create and change to the app directory.
 WORKDIR /server
