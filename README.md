@@ -1,1 +1,1 @@
-Hello mama
+INIT
