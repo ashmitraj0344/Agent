@@ -12,6 +12,10 @@ const PORT = process.env.PORT || 3000;
 const RETELL_API_BASE = "https://api.retellai.com";
 const allowedOrigins = [
   "https://lpu-voice-agent.vercel.app",
+  "http://localhost:5173",
+  "http://127.0.0.1:5173",
+  "http://localhost:3000",
+  "http://127.0.0.1:3000",
   ...(process.env.FRONTEND_URL
     ? process.env.FRONTEND_URL.split(",").map((origin) => origin.trim()).filter(Boolean)
     : [])
@@ -23,6 +27,7 @@ app.use(
       if (!origin || allowedOrigins.includes(origin)) {
         return callback(null, true);
       }
+      console.warn(`Blocked CORS origin: ${origin}`);
       return callback(new Error("Not allowed by CORS"));
     }
   })
